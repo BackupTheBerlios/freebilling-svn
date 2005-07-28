@@ -1,0 +1,110 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>_FormClient</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>_FormClient</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>309</width>
+            <height>56</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>FREEbilling</string>
+    </property>
+    <property name="icon">
+        <pixmap>image0</pixmap>
+    </property>
+    <hbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>5</number>
+        </property>
+        <property name="resizeMode">
+            <enum>Fixed</enum>
+        </property>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>labelTime</cstring>
+            </property>
+            <property name="paletteForegroundColor">
+                <color>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="font">
+                <font>
+                    <family>SUSE Sans</family>
+                    <pointsize>24</pointsize>
+                    <bold>1</bold>
+                </font>
+            </property>
+            <property name="text">
+                <string>00:00:00</string>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btnLogout</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>1</hsizetype>
+                    <vsizetype>5</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="focusPolicy">
+                <enum>NoFocus</enum>
+            </property>
+            <property name="text">
+                <string>logout (F10)</string>
+            </property>
+            <property name="accel">
+                <string>F10</string>
+            </property>
+            <property name="iconSet">
+                <iconset>image1</iconset>
+            </property>
+            <property name="flat">
+                <bool>true</bool>
+            </property>
+        </widget>
+    </hbox>
+</widget>
+<images>
+    <image name="image0">
+        <data format="PNG" length="2240">89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7af4000008874944415458859d976d8c5c5519809f73ee9d8ffd9addd99dd97667bf0a749d49e9d7b6abec1682583010883f8c804483c6c41f6afc23c118f487a29104510946b0603028a218952804f801a515286d716bcb6e76db216d29daceecce4c6767bf66eedc7bcf3dfe989dbbbbddd2564fe6e49c9c33effb3eef7bce79ef39426bcd95946462a815b8dd308c3b851029ad75a7522a2aa5ac48290bc059d7755f05fe96ce8c4e5e9152405c0e2099181a344df311a5d48dadad916a22d1dddcdcdc44381c261c0ee3ba2e958a856555c8e572f6d4d4b4068a4aa90781a7d39951f7ff024826861286613c01dc3630b031d0dfdf2f83c1604d480882c1008669a09487520ae52ab4d668ad29140a4c4c4c54cae5724929ef6be9cce88bff13403231b44b4af9726f6f6f532a950c0483415adb22ac4bc46989340360552c16e6cbcc9c2fb1b8504629b5464f369be5d8b1f76ca5dc5f69cd7de9cca87759806462e81e29e5335bb76e09f6f6f68a8e7894a191ed844241b486801944399a800cd3d212a15aad52c81728e4f3e4f379a673d3d8b6edebab542a1c3c78a85aa9940f7b9ebe259d19753e122099181a9652ee1b19190eb7b7b7b3e3baad6cde9ec2b15da26d511a42cd94e7aa680f10b5a5a8975af8a1bc58e6c081039c3e7dca9f735dc53befbc539d9d2bfd3d7deec8e72f0a904c0cf54a29c7b66ddbdadad3d323765cb7954f5c3f884012696ea53cebe0d80a2905428a55c6570268add19ee6e4c9531c78fb6d2a950a00b66db37ffffe6ab952fee1c9a9630fd5e564bd6318c6537d7d7dcd3d3d3da2efaa1e6ebc7998484b84f6b618f3c52acaf5304cb9ba0696ab199098f571433230b091bbefbe8b685b14806030c8f0f070c834023fe88ba552ab009289a11b841037a552495308c1ed9fbd9960284838dc48717a0110c80b8d9b3583be51d3f0c76bff15343637f1a95b762364cdcf4824425f5f9f08071b9e5805609ae6cf53a964281008b06de7b574c4a234861b2966171042601802c3f868ef0d43502acdf8de1ba6441ab5febace4e76ec18f4972a954a9a860cdcd0d3313002209389a1754aa9c1dede5e0170d3adbb080643cc4c97f194c7c4e4247ffdcb0b38ca590bb1e4f9f37ffc33f7dff7c0f298219086441a02690876eedc412c1ef7972291e8c29481afd623f099f6f676db344d7a3774d3116b67ae6051adb80829f094cbef7efb2cf7def3655e79e555b4c00fbf611aa44fa4d9f3f8afb9f193bb9066dde8522b6bd50c986cd9bcd98f4222910834849b6e154284a4699a9f4b24ba1a01b60ca628164acccf58bef0cea1411e7bfc515ccfe3e11fff8c2fdcf925f6ef7b0bc394542a65befbed0701b8f58e4f6398b5a5aa1b172b4e4cbc33ee03c46231b4a7bbda1ae39b24704d636313009bb626498f7f801062b94a413235c0534fff92eeee2e0af9f33cfca39ff2c53bbfc2b7bef91dbad6af2391e8e263a9ab918644acf07c2544341ac534cdfa89231008daa611dc263dcfeb6c68082384a05ab5b1cb0a216a89a6966c6a09a7bb27c16f9e7b92ab375e452c1ea7a3bd93c9f1134ce7f2dc76c7cdb5b05f6014df11300c49472ce64721140e79a60c744bcff39a83c12091b616f6bef2266d6d6db50ce5673ae183b4b5b5f2e433bf605d578c53274fb27bf76ece9d3bcbc7afdfe987da87afeba8f54008a26dad3e40381412521a1d524a59b66d9baa653339f63ea552894b958686308fed79846bb76fe2b5d75fa3bfbf876ddbb75c52a65e664ab37ebf5aad6ad773164d2945deb2ac16ab620190cbe5d938b0d14faba06bbf5a83d6b5703efaf84348438200ed693ca5fd744c5d6c4906349ea7385f28f800965595ae6be7a4d69c595c2cfb13f97c6ead92a5efbcf6f492310fa534caf5508e87723d3ce5e1791a6fe93fba26e843cd144bb86eed6ea294c271eca0e52c9e958eebbc90cd662c1fa0504029b5d6e892979ef26aad5b33bc5c6b735a691fc487f134d3b99cef64a1701e21c474d99ecf4829e40be7cf174dd7ad5d285cc7e1f8c4e42a25be716fd973d7f5709de508d421541d708571e5ba8cbf37e61fc36c36e394ab0bfb80ac4c6746b3428af7cf9efd8f7f3138fcee614aa5d25acfdd0b3d57b8ee6a8855515a927ff7f03f995f98471a12c771c864327ab67cfe00302d6b3bb272fff1e3279cfa1ab9aecbbe7dfb711db54aa1521784dda941f8c6ebe3caf365b299298e1d3d467c5d078eed70e244da75947d74b69c1fd35a5725c0e9dcf8ab4ab963e974dabfb34d4f4d317ae4c8f286bba8f15aebbaab41945b5ba6b9b979f6bebe97be6b7ab1ab367373f37cf8e1874ccffcfb296012565c482af6e2bd1f9c39636532197fb3fcebc8115e7af125664bb317d9744bfb600584bb2212278ea779fe0f7fa2a3b38d9696263267a73874e850b56ccf3f3b6fcd4c68ad8b70c19db0bb7de0ee4863f4f7bb768d04a2d1a83f1e30030c8f0cb3e9da4d18865cca7ae0a73c96af640b0b0bfc63df9b64b3e718dab51d80d183c77863effe6aa1983b7c6a6aec21e04dad75650d00405f2cf9bdc670e4fb3b060703894462d55c4b4b84cece38f1789c78679c783c866559e4730572b91cf9429e62b1486af346365cddcbf8d1e34c8ea73978f060756e7eeed4a9a9b1073cadded25acfd475ae01104288ced6beaf479b3a1fd9b0614328954a1af5e373b92284607da293d2cc2c95b2c5f4748ea3478fda656bfef533f9e37bb4f646b5d6d95532177b98082144b4a973772cd2fd13d3086c4e269381fefe3e7125205a6b8ac522131393d6dcfc5c7576a1b0676af6cc1bc0bb5aeb351f9a4bbe0d8510eb3b9a13777544d67f432007a2d136bbbbbbbba1b9b99970384c2814c2755d2ccba252a990cbe79da96cd6735de52e5ab3cf65664ebfec699501c6b5d6d58bdab8dce354d4bec9fd4da1d691d6c6f80dcd0d2d23529a5d5aeb88f674a3103842c8798d376355cb630bd6ecdbc585ecfb1a5d008e6bad672fa9ff4a9fe74b302dc07a200e84859061ad3d013840155804b2c0b4d6fa92afe27af92fab850eac9ed17cf60000000049454e44ae426082</data>
+    </image>
+    <image name="image1">
+        <data format="PNG" length="1456">89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7af400000577494441545885c5976b6f9cc515c77f67e6d9b51dabbee5428813a731358993d234214e82104594b8400a8588778857f413a02aaa542912e2459b36df0110047151d2e47d684323a855022a4e05491ceca8710c065fe2ddb5bdfb5c664e5fac77bdf6dade4d2fea918e46cf99d1f9ff9f3967e69c1155e5ff2941ad05bbb7edeb4934d5fcdf06be3176795055b526813891b3aad14e55f522a0000a02a82c8c80509c550459b0a8aaaafa64b9cf54d0d09c4a351d063ea94940d1746053e91ff4dc872c30100320256450288652503cea955c6e965b6323fc73e25a95cf9ecdfb9df77e13d41102bc6202c3ef7e7b92300cab348aaa6d6118727d68885bdfdc2408526bbaaf49a0f8b352936795a8620452c1da10a6a61f63d408dcb871e36ef111310441aa4a1744ea22509213274ef0e6db6fe29cab9340311d8320a8d24aa94940c40386c6a646bebe7d9bdf9f3ac9d4d4543d14c0c85a3b502701ac8a81742acd6f4efc9aaeae2e4e9dfa0357fef1f9daf0aa1811524150a552cc29813a9250418c144f767e3ee2e8933f67cbe64ede7de77d0e1c3cc0919f3ebe0a011091954f414514cb047ab7f79d316a9ef15ead5715540d223e3056e238a14995203078efd8b367379b366ee4f537de2073679aa3479f5ee2bf50c8832a62844056f8c7950834068d3daf9e7c25ddf7d08f29cc85e4e743e2d899288a48e21831105883730ee71cad6dadbcf4cb97387dfa34efbef70ebf78fa194008e3027997258c430cabec40b80201a06dfdfa76b2d3737c736b822449ca60aa8af38e388acb36e71c8d0d0dbcf8c20b9c397396b3e7cfd1df7f84e99949e6670b2082184360ab7720062cba780c45449cfaefa5d329ee4c6696803be788e39838aab4f9b21a1bf0ecb163646766f97cf0ef6cded0c9d62ddb098c458c2115a4aab4524af4d22e49d68918729959e23822495c994812c724dee15c824f3cce7bd41747e71dde797ef2e8235cb87081aeaeedb4b774a00a56a4eadc2f4f82d26ca0a2e6fad521f27321de159d7be78ae302c86a36f58e91e161dada5a295ddaaa1e630c4160abe0055f2a63e57b20b2d6e6ef4ccfdc15b8d722f8c4e4242323c3ecf9e12e36aebf6711c9ac7c135656961281443073d94c764df012a0f74570ef1c1313937cfcd1000fecddc37ddd3d1863167640b16257ce015946405515742693cde25c4294c414f279e6e7e6c8e57264323364677315c48ae0e3df7ec7471f0fb0bfef471cec3b4c53e3bab263af8ab1abd5022d47bf9c215154f8f6fcb9f3bb504144bc18e30ce2101a00d3d1d14effcffacbe0b7c7c6f8f4f2671c7aa88f03fbfbb0c6128615075c1531768d7e40975ec5b7a6afbd98cf63201f534c530ff8fbefddf7d79696d65dc658bcf7b824e1cbab5719191ee1d1c71ee1c17d0730cbc0a7a6a6181d1dc536d8554ec1a29467e7e7e7c7565ad0bbed90b74180aa272c14f8db279789c398e79e3f46effdbda86a193c97cbf1974b97b83d3aca867bda68dfd0b224de8bb268ac598c04552b966c6e960f3ef8135bb676f2d4534fb2adb38b288a89a2904221e4c30f2f32387885f59b5ad8f9c0f73176f5422b1543ed9e50c05843540839f4d8c3f41f7982f6d60ec230c43bc7c0c0007fbe78919696667af776934aafdd035632a88f0042602d2fffea65babbbb6948371286218383573877ee8f9840e8d9bd9d75cd4db55dad20b543a08a092c870e1e260c43bef8f20b4ebff516994c86ad3beea5bda3e5ee51a5dcd0d71302c188303e3ece6bafbfc6f56bd7d8b6630b3b76ee2e7536ff86dc45122ac2f8f8771c3f7e9cceaecdf43dbc0f6bcd7f00be546a13f03a1bbb58a3c8eb5743376578e8260befd9250c444a6694623b56f1ea1516ba3a4450effc626f5ecfeb5844f602cdcb412bbe2d0404c56f43b9de5803185ba465c096d69bd0cd6755f5525d04fe97f22f98391615d76f523b0000000049454e44ae426082</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>btnLogout</sender>
+        <signal>clicked()</signal>
+        <receiver>_FormClient</receiver>
+        <slot>btnLogout_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>_FormClient</sender>
+        <signal>destroyed(QObject*)</signal>
+        <receiver>_FormClient</receiver>
+        <slot>_FormClient_destroyed(QObject*)</slot>
+    </connection>
+</connections>
+<slots>
+    <slot>btnLogout_clicked()</slot>
+    <slot>_FormClient_destroyed(QObject*)</slot>
+</slots>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>
