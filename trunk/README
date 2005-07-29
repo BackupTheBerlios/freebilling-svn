@@ -1,4 +1,20 @@
 This package requires >=qt-3.3 >=libpq-8.0
 
 FREEbilling is a GPL'ed software so u can use it under term of GPL
-actually u can get support for this software by contact my 
+
+Instalation
+Compiling Software
+cd /path/to/freebilling/dir
+$>qmake
+   # this will produce file Makefile
+$>make
+   # after this step u will get this binary file 
+   	./server/server
+	./client/client
+	./billingserver/billingserver
+	./fbmessage/fbmessage
+	
+
+
+
+
